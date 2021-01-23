@@ -35,4 +35,5 @@ System.setProperty("webdriver.chrome.driver","C:\\your location for driver\\chro
 
 WebDriver driver = new ChromeDriver();
 
-**And you can start writing your tests.**
+<p align="center">
+And you can start writing your tests. Good luck!
