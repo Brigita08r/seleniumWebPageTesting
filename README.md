@@ -37,4 +37,4 @@ WebDriver driver = new ChromeDriver();
 
 
 <p align="center">
-And you can start writing your tests. Good luck! :relaxed:
+And you can start writing your tests. Good luck!
