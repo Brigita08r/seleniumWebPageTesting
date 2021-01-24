@@ -10,4 +10,9 @@ public class LoginPage {
     }
 
     private By logInButton = By.xpath("//a[@href='https://www.phptravels.net/login']");
+
+    public LoginPage clickLog() {
+        driver.findElement(logInButton).click();
+        return new LoginPage(driver);
+    }
 }

@@ -16,6 +16,9 @@ public class MainClass {
 
         driver.get("https://www.phptravels.net/home");
 
+        MainPage mainPage = new MainPage(driver);
+        mainPage.clickLogIn();
+
         driver.quit();
     }
 }
