@@ -13,6 +13,7 @@ public class LoginPage {
 
     public LoginPage clickLog() {
         driver.findElement(logInButton).click();
+        driver.findElement(By.xpath("//a[@href='https://www.phptravels.net/register']")).click();
         return new LoginPage(driver);
     }
 }
